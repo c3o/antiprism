@@ -81,7 +81,7 @@ include_once(filepath($lang));
             <small>Amelia Andersdotter, MEP<br />Piratpartiet</small>
           </li>     
           <li style="">
-            <a href="#" target="_blank" title="Mercè Marzo"><img src="/sigs/MM.png" width="282" height="51" style="position:relative;left:-100px" /></a><br />
+            <a href="https://twitter.com/mmarzoc" target="_blank" title="Mercè Marzo"><img src="/sigs/MM.png" width="282" height="51" style="position:relative;left:-100px" /></a><br />
             <small>Mercè Marzo, Councilwoman<br />Alella, Barcelona, Pirates de Catalunya</small>
           </li>
         </ul>
