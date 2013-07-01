@@ -372,6 +372,7 @@ h3 { /*a:hover, .state-expanded h3 {*/
   display: block;
   margin: 0; padding: 0;
   line-height: 1.2em;
+  color: #999;
 }
 
 #credits, .credits {
