@@ -187,6 +187,21 @@ ul#menu li a:hover {
   color: #69f;
 }
 
+#menu li+li a { /* sign */
+  background: #69f;
+  padding: .3em .5em .2em;
+  border-radius: .3em;
+  box-shadow: #000 3px 3px 0;
+  text-shadow: none;
+  color: #fff;
+  margin-top: .2em;
+}
+#menu li+li a:hover {
+  color: #fff;
+  box-shadow: none;  
+  margin-top: .3em;
+  margin-left: .1em;
+}
 
 /*div.expanded {
   height: 0;
@@ -326,7 +341,7 @@ h3 { /*a:hover, .state-expanded h3 {*/
   -o-transition: opacity .3s;
   transition: opacity .3s;
 }
-#supporters li a+a {
+#supporters ul.logos li a+a {
   position: absolute;
   left: 0; top: 0;
   background: url(stamp.png) center no-repeat;
@@ -338,12 +353,10 @@ h3 { /*a:hover, .state-expanded h3 {*/
   -o-transition: opacity .3s;
   transition: opacity .3s;
 }
-#supporters li+li {
-}
-#supporters li:hover {
+#supporters ul.logos li:hover {
   opacity: 1;
 }
-#supporters li:hover a+a {
+#supporters ul.logos li:hover a+a {
   opacity: 0;
 }
 
