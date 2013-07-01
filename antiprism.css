@@ -63,7 +63,7 @@ body {
   color: #666;
   font-family: Georgia, serif;
   font-size: 1.1em;
-  margin: 0 0 100px 0;
+  margin: 0 0 0 0;
 }
 
 a { color:inherit;}
@@ -150,30 +150,43 @@ span.intro {
 }
 
 ul#menu {
+  position: fixed;
+  margin: 0; padding: 0;
+  top: 0;
+  width: 100%;
   list-style: none; 
   line-height: 1.2em;
   float: right;
+  z-index: 999;
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 30%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 30%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 30%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 30%,rgba(255,255,255,0) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 30%,rgba(255,255,255,0) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+ul#menu li {
+  float: right;
+  margin-right: 1.5em;
 }
 ul#menu li a { 
   text-decoration: none;
   color: #000;
-  font-size: 1.7em;
+  font-size: 1.4em;
+  padding: .5em 0;
+  display: block;
+  text-shadow: #fff 2px 2px 0px;
+  -webkit-transition: color .1s;
+  -moz-transition: color .1s;
+  -ms-transition: color .1s;
+  -o-transition: color .1s;
+  transition: color .1s;
+}
+ul#menu li a:hover {
+  color: #69f;
 }
 
-.icon-eye-open {
-  font-size: 10em;
-  color: #6699ff;
-}
-#eyes {
-  position: absolute;
-  display: none;
-}
-#eyes div {
-  height: 6em;
-}
-#eyes div+div {
-  margin-left: 5em;
-}
 
 /*div.expanded {
   height: 0;
@@ -242,7 +255,7 @@ background: url(http://www.immateriallabour.com/edgeryders/reach_of_mission.jpg)
   text-transform: uppercase;
   color: #fff;
   font-size: .8em;
-  z-index: 12;
+  z-index: 999999;
   text-align: right;
 }
 #pirate img {
@@ -292,11 +305,14 @@ h3 { /*a:hover, .state-expanded h3 {*/
   list-style: none;
   margin: 0; padding: 0;
 }
-#supporters li {
-  margin: 0 30px 0 0; padding: 0;
+#supporters ul li {
   float: left;
   display: block;
-  border:2px solid #fff;
+  margin: 0 30px 0 0;
+  padding: 0;
+}
+#supporters ul.logos li {
+  border: 2px solid #fff;
   position: relative;
   opacity: .4;
   -webkit-transform: rotate(-3deg);
@@ -331,15 +347,63 @@ h3 { /*a:hover, .state-expanded h3 {*/
   opacity: 0;
 }
 
+#supporters ul.sigs {
+  margin-bottom: 1em;
+  overflow: hidden;
+}
+#supporters ul.sigs li {
+
+}
+#supporters ul.sigs li small {
+  font-size: .7em;
+  display: block;
+  margin: 0; padding: 0;
+  line-height: 1.2em;
+}
+
 #credits, .credits {
   text-align: center;
-  color: #aaa;
+  color: rgba(255,255,255,.7);
   font-size: .8em;  
   line-height: 1.4em;
 }
 #credits {
-  margin-top: 100px;
+  clear: both;
+  margin-top: 30px;
 }
 #credits a, .credits a {
   color: inherit;
 }
+
+
+#share {
+  background: #69f;
+  color: #fff;
+  margin-top: 20px;
+  padding: 20px 0 100px;
+}
+
+#share .box {
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+#share .box a {
+  border-radius: 75px;
+  display: block;
+  float: left;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+#share .box a:hover {
+  background: rgba(255,255,255,.6);
+  box-shadow: rgba(255,255,255,.6) 0 0 5px;
+}
+
+#share h3 {
+  color: #fff;
+}
+
