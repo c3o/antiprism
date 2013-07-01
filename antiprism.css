@@ -1,0 +1,345 @@
+@font-face {
+    font-family: 'blkm';
+    src: url('font/blackout-midnight-webfont.eot');
+    src: url('font/blackout-midnight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/blackout-midnight-webfont.woff') format('woff'),
+         url('font/blackout-midnight-webfont.ttf') format('truetype'),
+         url('font/blackout-midnight-webfont.svg#blackoutmidnight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'politics';
+    src: url('font/politicsheadv1_9-webfont.eot');
+    src: url('font/politicsheadv1_9-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/politicsheadv1_9-webfont.woff') format('woff'),
+         url('font/politicsheadv1_9-webfont.ttf') format('truetype'),
+         url('font/politicsheadv1_9-webfont.svg#politics_headbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@-webkit-keyframes spaceboots {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); font-size: 6.1em; }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); font-size: 6em; }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); font-size: 6.2em; }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); font-size: 6.1em;}
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); font-size: 6em;}
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+xh1 .main:hover,
+xh1 .main:focus {
+	-webkit-animation-name: spaceboots;
+	-webkit-animation-duration: 0.8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+xh1 .main {
+	display:inline-block;
+}
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+body {
+  background: #fff; /* url(stormysky.jpg);*/
+  color: #666;
+  font-family: Georgia, serif;
+  font-size: 1.1em;
+  margin: 0 0 100px 0;
+}
+
+a { color:inherit;}
+
+.box {  
+  margin: 0 auto;
+  width: 550px;
+}
+
+p, ul {
+  line-height: 1.6em;
+}
+
+h1 .main {
+  font-family: 'blkm';
+  text-transform: upper-case;
+  color: #000;
+  word-spacing: -.2em;
+}
+h2, h3, span.intro, #menu { /* .state-expanded */
+  font-family: 'politics';
+  text-transform: upper-case;
+  color: #000;
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  top: 50px;
+  text-align: center;
+  font-size: 1em;
+  text-transform: uppercase;
+  width: 300px;
+  background: #000;
+  border-radius: 50%;
+  height: 270px;
+  padding-top: 30px;
+  /* box-shadow: rgba(0,0,0,.3) .5em .5em 0; */
+}
+h1 .main {
+  color: #fff;
+  font-size: 6em;
+  display: block;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+  word-spacing: -.3em;
+  padding: .05em 0;
+  text-shadow: rgba(0,0,0,1) .05em .05em 0;
+}
+h1 .pre, h1 .post {
+  letter-spacing: 1em;
+  font-size: .7em;
+  opacity: 0;
+}
+
+h1 .main:hover {
+  -webkit-transform: rotate(-4deg);
+  -moz-transform: rotate(-4deg);
+  -ms-transform: rotate(-4deg);
+  -o-transform: rotate(-4deg);
+  transform: rotate(-4deg);
+  font-size: 6.3em;
+}
+
+/* .state-expanded */ h3 { 
+  font-size: 1.7em;
+}
+
+span.intro {
+  font-size: 1.7em;
+  margin-right: .1em;
+}
+
+.box strong {
+  /*background: #000;
+  color: #fff;
+  padding: .1em .3em;
+  font-weight: normal;*/
+  color: #000;
+}
+
+ul#menu {
+  list-style: none; 
+  line-height: 1.2em;
+  float: right;
+}
+ul#menu li a { 
+  text-decoration: none;
+  color: #000;
+  font-size: 1.7em;
+}
+
+.icon-eye-open {
+  font-size: 10em;
+  color: #6699ff;
+}
+#eyes {
+  position: absolute;
+  display: none;
+}
+#eyes div {
+  height: 6em;
+}
+#eyes div+div {
+  margin-left: 5em;
+}
+
+/*div.expanded {
+  height: 0;
+  overflow: hidden;
+}
+.state-expanded div.expanded {
+  height: auto;
+}*/
+
+#bg {
+  position: absolute;
+  background: url(graph.gif) center 0 no-repeat;
+  background-size: 470px;
+  /* 
+background: url(http://www.immateriallabour.com/edgeryders/reach_of_mission.jpg) center -150px no-repeat;
+  background-size: 70%;*/
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -o-transform: rotate(60deg);
+  transform: rotate(60deg);
+  /*-webkit-animation-name: spin;
+  -webkit-animation-duration: 160000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 160000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 160000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;*/
+}
+
+#logo { 
+  position: absolute;
+  width: 700px;
+  height: 400px;
+  margin-left: -350px;
+  left: 50%;
+}
+
+/*#logo #bar {
+  width: 0px;
+  transition: width .2s;
+}
+#logo:hover #bar, #bg:hover + h1 + #bar, h1:hover + #bar {
+  width: 400px;
+}*/
+
+#page {
+  padding-top: 60px;
+}
+.first.box {
+  padding-top: 500px;
+  position: relative;
+  z-index: 10;
+}
+
+#pirate {
+  position: fixed;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: .8em;
+  z-index: 12;
+  text-align: right;
+}
+#pirate img {
+  vertical-align: middle;
+}
+#pirate .section {
+  float: left;
+  background: #000;
+  margin-right: 1px;  
+  padding: 3px 8px;
+  height: 40px;
+  line-height: 35px;
+}
+#pirate .section.lang {
+  background: #69f;
+}
+
+h3 {
+  margin: .2em 0;
+}
+h3 a {
+  cursor: normal; /* disabled */
+  color: inherit;
+  text-decoration: none;
+  transition: color .2s;
+}
+h3 { /*a:hover, .state-expanded h3 {*/
+  color: #69f;
+}
+
+.box + .box {
+  margin-top: 2em;
+}
+
+#supporters { 
+  margin-top: 3em;
+  width: 815px;
+  overflow: hidden;
+}
+#supporters h3 {
+  color: #000;
+  font-size: 1.1em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+#supporters ul {
+  list-style: none;
+  margin: 0; padding: 0;
+}
+#supporters li {
+  margin: 0 30px 0 0; padding: 0;
+  float: left;
+  display: block;
+  border:2px solid #fff;
+  position: relative;
+  opacity: .4;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  -webkit-transition: opacity .3s;
+  -moz-transition: opacity .3s;
+  -ms-transition: opacity .3s;
+  -o-transition: opacity .3s;
+  transition: opacity .3s;
+}
+#supporters li a+a {
+  position: absolute;
+  left: 0; top: 0;
+  background: url(stamp.png) center no-repeat;
+  opacity: 1;
+  overflow: hidden;
+  -webkit-transition: opacity .3s;
+  -moz-transition: opacity .3s;
+  -ms-transition: opacity .3s;
+  -o-transition: opacity .3s;
+  transition: opacity .3s;
+}
+#supporters li+li {
+}
+#supporters li:hover {
+  opacity: 1;
+}
+#supporters li:hover a+a {
+  opacity: 0;
+}
+
+#credits, .credits {
+  text-align: center;
+  color: #aaa;
+  font-size: .8em;  
+  line-height: 1.4em;
+}
+#credits {
+  margin-top: 100px;
+}
+#credits a, .credits a {
+  color: inherit;
+}
