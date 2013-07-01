@@ -123,8 +123,8 @@ include_once(filepath($lang));
       <div id="page">
         <div class="box">
           <h3><?php echo $share; ?></h3>
-          <a style="margin-left:140px" id="twitter" href="" target="share" onclick="var w=window.open(this.href, 'share', 'width=550,height=270,left='+(screen.width/2-275)+','+'top='+(screen.height/2-220));"><img src="sharetw.png" width="130" title="Twitter" /></a>
-          <a id="facebook" href="" target="share" onclick="var w=window.open(this.href, 'share', 'width=550,height=300,left='+(screen.width/2-275)+','+'top='+(screen.height/2-220)); return showInfo()"><img src="sharefb.png" width="130" title="Facebook" /></a>
+          <a style="margin-left:140px" id="twitter" href="" target="share" onclick="var w=window.open(this.href, 'share', 'width=550,height=270,left='+(screen.width/2-275)+','+'top='+(screen.height/2-220));"><img src="/sharetw.png" width="130" title="Twitter" /></a>
+          <a id="facebook" href="" target="share" onclick="var w=window.open(this.href, 'share', 'width=550,height=300,left='+(screen.width/2-275)+','+'top='+(screen.height/2-220)); return showInfo()"><img src="/sharefb.png" width="130" title="Facebook" /></a>
         </div>
       </div>
       <div id="credits">
