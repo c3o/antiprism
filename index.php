@@ -76,15 +76,19 @@ include_once(filepath($lang));
       <div id="supporters" class="box">
         <h3>–<?php echo $undersigned; ?>–</h3>
         <ul class="sigs">
-          <li style="clear: left; margin-left:110px; margin-right: 60px;">
-            <a href="http://ameliaandersdotter.eu" target="_blank" title="Amelia Andersdotter"><img src="/sigs/AA.png" width="313" height="53"/></a><br />
-            <small>Amelia Andersdotter, MEP<br />Piratpartiet</small>
+          <li style="clear: left; margin-left:50px; margin-right: 10px;">
+            <a href="http://ameliaandersdotter.eu" target="_blank" title="Amelia Andersdotter"><img src="/sigs/AA.png" width="313" height="53" style="position:relative;left:-15px; top:9px" /></a><br />
+            <small>Amelia Andersdotter, MEP<br />(Piratpartiet)</small>
           </li>     
-          <li style="">
-            <a href="https://twitter.com/mmarzoc" target="_blank" title="Mercè Marzo"><img src="/sigs/MM.png" width="282" height="51" style="position:relative;left:-100px" /></a><br />
-            <small>Mercè Marzo, Councilwoman<br />Alella, Barcelona, Pirates de Catalunya</small>
+          <li style="width:170px; margin-top: 2px">
+            <a href="https://twitter.com/mmarzoc" target="_blank" title="Mercè Marzo"><img src="/sigs/MM.png" width="240" height="43" style="position:relative; left:-80px; top: 10px" /></a><br />
+            <small>Mercè Marzo, Councilwoman<br />Alella (Pirates de Catalunya)</small>
           </li>
-        </ul>
+          <li style="margin-top:-5px">
+            <a href="https://twitter.com/fisima_" target="_blank" title="Philip Pacanda"><img src="/sigs/PP.png" width="203" height="51" style="position:relative;left:-30px; top: 10px" /></a><br />
+            <small>Philip Pacanda, Councilman<br />Graz (Piratenpartei Österreichs)</small>
+          </li>
+         </ul>
         <ul class="logos">
           <li style="clear: left; margin-left:130px; margin-top:-10px"><a href="http://pirata.cat" target="_blank" title="Pirates de Catalunya"><img src="/logos/pp-cat.jpg" width="124" height="144"/></a><a href="http://pirata.cat" target="_blank" title="Pirates de Catalunya" style="width:124px; height: 144px;"></a></li>     
           <li style="-webkit-transform: rotate(2deg); -moz-transform: rotate(2deg); -ms-transform: rotate(2deg); -o-transform: rotate(2deg); transform: rotate(2deg)"><a href="http://pirateparty.org.uk" target="_blank" title="Pirate Party UK"><img src="/logos/pp-uk.png" width="107" height="150"/></a><a href="http://pirateparty.org.uk" target="_blank" title="Pirate Party UK" style="width:107px; height: 150px;"></a></li>
