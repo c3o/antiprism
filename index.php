@@ -135,7 +135,7 @@ include_once(filepath($lang));
       </div>
       <div id="credits">
         This text is <a href="https://creativecommons.org/publicdomain/zero/1.0/">in the public domain</a>. Please share, translate, add to, build on.<br />
-        Site run by PP-AT / Piratenpartei Österreichs / <a href="mailto:c3o@piratenpartei.at">contact</a>
+        Site run by <a href="http://piratenpartei.at">PP-AT</a> / <a href="http://ppoe.piratenpad.de/SnowdenManifesto">About</a> / <a href="mailto:c3o@piratenpartei.at">Contact</a>
       </div>
     </div>
 
