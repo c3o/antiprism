@@ -3,17 +3,19 @@ function filepath($lang) {
   return 'lang/'.basename($lang).'.php'; // basename prevents injections
 }
 
-$lang = 'en'; // default
+define('DEFAULTLANG', 'en');
+
+$lang = DEFAULTLANG;
 if ($_GET['lang']) { // specified in URL?
   $lang = $_GET['lang'];
   if (!file_exists(filepath($lang))) { Header("Location: /"); exit; } // unknown language
-} else {
+} else { // specified in header?
   $browser_lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
   if ($browser_lang != 'en' && file_exists(filepath($browser_lang))) {
     Header("Location: /".$browser_lang); exit; // redirect to preferred language
   }
 }
-include_once(filepath('en')); // defaults
+include_once(filepath(DEFAULTLANG)); // defaults
 include_once(filepath($lang));
 
 ?><!DOCTYPE html>
