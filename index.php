@@ -53,7 +53,7 @@ include_once(filepath($lang));
           <option value="fr"<?php if($lang=='fr') { echo ' selected'; } ?>>FR - Français</option>
           <option value="it"<?php if($lang=='it') { echo ' selected'; } ?>>IT - Italiano</option>
           <option value="nl"<?php if($lang=='nl') { echo ' selected'; } ?>>NL - Nederlands</option>
-          <option value="nl"<?php if($lang=='pl') { echo ' selected'; } ?>>PL - Polski</option>
+          <option value="pl"<?php if($lang=='pl') { echo ' selected'; } ?>>PL - Polski</option>
           <option value="ru"<?php if($lang=='ru') { echo ' selected'; } ?>>RU - Русский</option>
           <option value="sl"<?php if($lang=='sl') { echo ' selected'; } ?>>SL - Slovenščina</option>
         </select>
