@@ -44,6 +44,7 @@ include_once(filepath($lang));
         <select onchange="document.location.replace('http://antiprism.eu/'+this.options[this.selectedIndex].value)">
           <option value="ca"<?php if($lang=='ca') { echo ' selected'; } ?>>CA - Català</option>
           <option value="cz"<?php if($lang=='cz') { echo ' selected'; } ?>>CZ - Česky</option>
+          <option value="by"<?php if($lang=='by') { echo ' selected'; } ?>>BY - Беларускі</option>
           <option value="de"<?php if($lang=='de') { echo ' selected'; } ?>>DE - Deutsch</option>
           <option value="et"<?php if($lang=='et') { echo ' selected'; } ?>>ET - Eesti</option>
           <option value="el"<?php if($lang=='el') { echo ' selected'; } ?>>EL - Ελληνικά</option>
