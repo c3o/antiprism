@@ -44,6 +44,7 @@ include_once(filepath($lang));
         <select onchange="document.location.replace('http://antiprism.eu/'+this.options[this.selectedIndex].value)">
           <option value="ca"<?php if($lang=='ca') { echo ' selected'; } ?>>CA - Català</option>
           <option value="cz"<?php if($lang=='cz') { echo ' selected'; } ?>>CZ - Česky</option>
+          <option value="by"<?php if($lang=='by') { echo ' selected'; } ?>>BY - Беларускі</option>
           <option value="de"<?php if($lang=='de') { echo ' selected'; } ?>>DE - Deutsch</option>
           <option value="et"<?php if($lang=='et') { echo ' selected'; } ?>>ET - Eesti</option>
           <option value="el"<?php if($lang=='el') { echo ' selected'; } ?>>EL - Ελληνικά</option>
@@ -94,7 +95,7 @@ include_once(filepath($lang));
          </ul>
         <ul class="logos">
           <li style="clear: left; margin-left:130px; margin-top:-10px"><a href="http://pirata.cat" target="_blank" title="Pirates de Catalunya"><img src="/logos/pp-cat.jpg" width="124" height="144"/></a><a href="http://pirata.cat" target="_blank" title="Pirates de Catalunya" style="width:124px; height: 144px;"></a></li>     
-          <li style="-webkit-transform: rotate(2deg); -moz-transform: rotate(2deg); -ms-transform: rotate(2deg); -o-transform: rotate(2deg); transform: rotate(2deg)"><a href="http://pirateparty.org.uk" target="_blank" title="Pirate Party UK"><img src="/logos/pp-uk.png" width="107" height="150"/></a><a href="http://pirateparty.org.uk" target="_blank" title="Pirate Party UK" style="width:107px; height: 150px;"></a></li>
+	  <li style="-webkit-transform: rotate(2deg); -moz-transform: rotate(2deg); -ms-transform: rotate(2deg); -o-transform: rotate(2deg); transform: rotate(2deg)"><a href="http://pirateparty.org.uk" target="_blank" title="Pirate Party UK"><img src="/logos/pp-uk.png" width="107" height="150"/></a><a href="http://pirateparty.org.uk" target="_blank" title="Pirate Party UK" style="width:107px; height: 150px;"></a></li>
           <li style="-webkit-transform: rotate(-1deg); -moz-transform: rotate(-1deg); -ms-transform: rotate(-1deg); -o-transform: rotate(-1deg); transform: rotate(-1deg)"><a href="http://partidopirata.es" target="_blank" title="Partido Pirata"><img src="/logos/pp-es.png" width="100" height="100"/></a><a href="http://partidopirata.es" target="_blank" title="Partido Pirata" style="width:100px; height: 100px;"></a></li>
           <li style="-webkit-transform: rotate(4deg); -moz-transform: rotate(4deg); -ms-transform: rotate(4deg); -o-transform: rotate(4deg); transform: rotate(4deg)"><a href="http://piratpartiet.se" target="_blank" title="Piratpartiet"><img src="/logos/pp-se.png" width="100" height="100"/></a><a href="http://piratpartiet.se" target="_blank" title="Piratpartiet" style="width:100px; height:100px;"></a></li>
           
@@ -121,7 +122,8 @@ include_once(filepath($lang));
           <li style="margin-top: -20px; margin-left: -10px; -webkit-transform: rotate(2deg); -moz-transform: rotate(2deg); -ms-transform: rotate(2deg); -o-transform: rotate(2deg); transform: rotate(2deg)"><a href="http://www.pirateparty.ca/" target="_blank" title="Pirate Party of Canada"><img src="/logos/pp-ca.png" width="90" height="90"/></a><a href="http://www.pirateparty.ca/" target="_blank" title="Pirate Party of Canada" style="width:90px; height: 90px;"></a></li>
 
           <li style="clear:left; margin-top: -40px; margin-left: 60px; -webkit-transform: rotate(-1deg); -moz-transform: rotate(-1deg); -ms-transform: rotate(-1deg); -o-transform: rotate(-1deg); transform: rotate(-1deg)"><a href="http://pirate-party.ru/" target="_blank" title="Пиратская Партия России"><img src="/logos/pp-ru.jpg" width="281" height="36"/></a><a href="http://pirate-party.ru/" target="_blank" title="Пиратская Партия России" style="width:281px; height: 36px;"></a></li>
-          <li style="margin-top:0px; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg)"><a href="http://piratenpartei.ch/" target="_blank" title="Piratenpartei / Parti Pirate / Partito Pirata"><img src="/logos/pp-ch.png" width="279" height="61"/></a><a href="http://piratenpartei.ch" target="_blank" title="Piratenpartei / Parti Pirate / Partito Pirata" style="width:279px; height: 61px;"></a></li>
+          <li style="margin-top:0px; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg)"><a href="http://piratenpartei.ch/" target="_blank" title="Piratenpartei / Parti Pirate / Partito Pirata"><img src="/logos/pp-ch.png" width="279" height="61"/></a><a href="http://piratenpartei.ch" target="_blank" title="Piratenpartei / Parti Pirate / Partito Pirata" style="width:279px; height: 61px;"></a></li>   
+	<li style="-webkit-transform: rotate(2deg); -moz-transform: rotate(2deg); -ms-transform: rotate(2deg); -o-transform: rotate(2deg); transform: rotate(2deg)"><a href="http://pirates.by" target="_blank" title="Belurusian Pirates"><img src="/logos/pirates-by.png" width="144" height="150"/></a><a href="http://pirates.by" target="_blank" title="Belurusian Pirates" style="width:144px; height: 150px;"></a></li>     </ul>
         </ul>
       </div>
 
