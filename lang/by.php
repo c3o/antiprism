@@ -22,11 +22,29 @@ $manifesto = <<<EOD
 
 Мы патрабуем:
 
+
+
+    <p>
+ <span class="intro">We are appalled</span> to learn of the unprecedented <strong>surveillance of Internet users</strong> worldwide through PRISM and similar programmes. Blanket surveillance capabilities such as these, especially when implemented without citizens' scrutiny, seriously <strong>threaten the human rights to free speech and privacy and with them the foundations of our democracies</strong>.<br /><br /></p>
+    <p><span class="intro">We applaud whisteblower Edward Snowden</span> for his actions. When a government is truly by the people and for the people, it cannot be a crime to leak information on the course and extent of actions by the government, in the name of its citizens, for the claimed purpose of protecting them. A representative government in a democracy relies on the consent of its people. However, such consent cannot exist when the citizens are not fully informed.</p>
+    <p>We note with alarm the complete lack of regard the US government is showing for the rights of European citizens and, more generally, anyone who uses US-based communication services and infrastructure. We also note the negative effect on its allies, the sovereignty of the affected countries and the competitiveness of their businesses.</p>
+    <p><span class="intro">Europe must respond</span> to these revelations with due resolve. In light of this situation, it is important that the European Union, rather than remaining complicit with this abuse of powers that comes at an untenable cost to society, becomes a worldwide <strong>beacon for digital rights and privacy protection, government transparency and whistleblower protection</strong>.<br /><br /></p>
+    <p><span class="intro">We call for:</span></p>
+  </div>
+
 1. Прытулку і абароны інфарматараў
 
 Урад ЗША, на прыкладзе Брэдлі Мэнінга і іншых, прадэманстраваў, што яго абыходжанне з інфарматарамі з’яўляецца падставай да сур’езнай заклапочанасці. Грамадская маркіроўка Эдварда Сноўдэна як “здрадніка” рознымі афіцыйнымі асобамі і медыя ЗША стварыла такое становішча, якое не можа даць яму ўпэўненасці ў тым, што судовы працэс над ім будзе справядлівы. Яго вера ў празрыстаць ураду можа стаць прычынай пераследу, і, несумненна,  ён рызыкуе сутыкнуцца з бесчалавечным або зневажальным годнасць абыходжаннем альбо пакараннем, уключаючы смяротнае.
 
 Мы заклікаем усе ўрады Еўропы з сімпатыяй ставіцца да любых зваротаў забяспечыць  палітычны прытулак альбо даць дадатковую (субсідыярную) ахову Эдварду Сноўдэну і іншым інфарматарам, і хутка рэагаваць на любыя іх падобныя прашэнні.
+
+  <div class="box">
+    <h3><a href="#" onclick="return toggle(this)">1. Asylum and Protection for Whistleblowers</a></h3>
+    <div class="expanded">
+      <p>The US government has demonstrated – in the cases of <a href="http://iam.bradleymanning.org">Bradley Manning</a> and others – that its <a href="http://www.guardian.co.uk/world/2012/mar/12/bradley-manning-cruel-inhuman-treatment-un">treatment of whistleblowers</a> is a cause for grave concern. The public labeling of Edward Snowden as a “traitor” by various US officials and media has created a climate in which he cannot be assured to receive a fair trial. He might be subject to persecution for his political belief in government transparency, and would certainly be in danger of facing inhumane or degrading treatment or punishment, including the threat of the death penalty.</p>
+      <p>We call on all governments of Europe to <strong>treat sympathetically any applications for political asylum or subsidiary protection status</strong> by Mr Edward Snowden and other whistleblowers and to speedily expedite any such applications.</p>
+    </div>
+  </div>
 
 2. Выкрыцця фактаў
 
@@ -41,47 +59,8 @@ $manifesto = <<<EOD
 
 Мы пашыраем гэты заклік да усіх нацыянальных парламентаў - даследваць, якія нацыянальныя канстытуцыі, законы аб ахове дадзеных, шпіёнства былі парушаны. 
 
-3. Моцнай Еўрапейскай Аховы Дадзеных
-
-Агульнае Рэгуляванне Аховы Дадзеных, якое зараз на разглядзе, павінна быць узмоцнена, каб гарантаваць шырокую і маючую сур’ёзныя наступствы ахову асабістых і камерцыйных дадзеных. Высілкам лабістаў, якія выступаюць супраць, павінна быць аказана процідзеянне.
-
-У прыватнасці, дадзеныя еўрапейскіх грамадзян не мусяць быць наўмысна перададзены выведвальным службам Злучаных Штатаў. Артыкул 42 з першага злітага праекта плана, які адрасаваны на знешнія дзеянні трэціх краінаў, такія як Патрычны Акт ЗША (Patriot Act), Амерыканскі Акт Выведвальна Нагляду (Foreign Intelligence Surveillance Act) і накладанне бар’ераў для замежных заканадаўчых уладаў даступацца да Еўрапейскіх дадзеных павінен быць паўторна ўведзены. Метададзеныя і псеўданімны павінны быць таксама абароненыя.
-
-Згодна Міжнародным Прынцыпам Бяспечнай Гавані, кампаніі ЗША павінны інфармаваць карыстальнікаў, калі яны перадаюць дадзеныя трэцім асобам. Здаецца, што кампаніі, якія ўдзельнічалі ў праграме PRISM, парушылі гэтыя ўмовы. У адказ, ЕС павінен ануляваць пагадненне аб гэтых Прынцыпах (Commission Decision 2000/520/EC), каб закранутыя кампаніі падвергліся Еўрапескім судам і неадкладна прыпынілі гэтыя практыкі. Бяспечная Гавань павінна быць перагледжана з больш эфектыўнай аховай і базавымі механізмамі ў гэтым месцы, або замененая новымі міжнароднымі пагадненнямі па ахове дадзеных, для прыкладу, базуючыся на Агульным Рэгуляванні Аховы Дадзеных.
-
-4. Міжнароднага пагаднення аб свабодным Інтэрнеце
-
-Каб гарантаваць, што Інтэрнэт застаецца месцам магчымасцяў і дамэкратычных сілаў больш, чым працяг звычайнага іструмента для кантролю і скарачэння дэмакратыі і асабістых свабодаў. ЕС варта ўзначаліць міжнароднае Пагадненне аб Свабодным Інтэрнеце. Такое пагадненне павінна добра ахоўваць канфедэнцыйнасць камунікацыяў, свабоду выяўлення і дасягу да інфармацыі (спецыяльна з прыналежнасцю да Інтэрнета), а таксама сеткавы нейтралітэт.
-
-5. Фонду праграмнага забеспячэння (з функцыямі прыватнасці)
-
-У дадатак да лініі аховы прыватнасці, спажывец павінен мець наладку для выкарыстання праграмнага забеспачэння і паслугі, якія добра ахоўваюць іх прыватнасць. Такое забеспячэнне можа прапаноўваць ананімнасць, добрае скразное шыфраванне, архітэктуру карыстальнік-карыстальнік (p2p), магчмасць размеркаванага або самастойнага захавання дадзеных карыстальніка, адкрыты для аналіза карыстальніка праграмнага забеспячэння код і функцыі аховы прыватнасці.
-
-Мы вітаем факт, што сённяшні план для праекту праграмы Гарызонт 2020 уключае мэту “забяспечыць прыватнасць і ахову Інтэрнета”. Мы заклікаем Еўрапейскі Саюз гарантаваць, што больш значны адсотак сродкаў на даследванні будзе патрачаны на развіццё праграмнага забеспячэння і выбару паслуг у гэтым накірунку, чым патрачаны на праекты з супрацлеглымі мэтамі. Напрыклад, даследваніі тэхналогіяў па нагляду і выцягванню дадзеных, а таксама праекты, яўныя мэты якіх ёсць бязладныя і без сумневу накіраваная на нагляд, павінны быць адмененыя цалкам. 
-
-6. Да прадухілення еўрапейскіх PRISM
-
-Мы прапаноўваем заканадаўчыя меры па ўзмацненню абароны супраць падобных падманаў у Еўропе.
-
-Прамыя праграмы па выцягванню інфармацыі ад агенстваў ураду, якія знаходзяцца ў асновах каналаў сувязі Інтэрнета, такія як, паводле звестак, устаноўленыя NSA (Агенства Нацыянальнай Бяспекі) як частка праграммы BLARNEY (паралельная праграма, збірае метададзеныя на прапускных пунктах уздоўж Інтернета), павінны быць відавочна абвешчаныя па-за законам. Такія праграмы дазваляюць захоўваць і аналізаваць дадзеныя ўсіх інтэрнет камунікацый, у абыход усяго іншага кантролю і працэдур, наносячы шкоду канфідэнцыйным дадзеным і прыватнасці кажнага. Парушэнне цэласнасці сеткавай інфраструктуры гэтым непрымальным чынам падрывае давер да ўсяго Інтэрнэта і пагражае ўсім яго перавагам.
-
-Мы таксама паўтараем наш заклік да адмены Дырэктывы Захоўвання Дадзеных. Чэшскія і румыскія кансцітуцыйныя суды зрабілі відавачныя высновы, што шырокае і не маючае падазрэнняў захоўванне дадзеных з’яўляецца істотным парушэннем асноўных правоў чалавека. Ствараючы хаатычную калекцыю вялікіх аб’ёмаў дадзеных без падцверджання суда, праграмы захоўвання дадзеных дазваляюць выканаўчым уладам працягваць падман з дапамогай платформаў як PRISM, пагражаючы падзяленню ўлады на выканаўчую і судовую, што з’яўляецца асновай нашай дэмакратыі.
 
 
-
-    <p><span class="intro">We are appalled</span> to learn of the unprecedented <strong>surveillance of Internet users</strong> worldwide through PRISM and similar programmes. Blanket surveillance capabilities such as these, especially when implemented without citizens' scrutiny, seriously <strong>threaten the human rights to free speech and privacy and with them the foundations of our democracies</strong>.<br /><br /></p>
-    <p><span class="intro">We applaud whisteblower Edward Snowden</span> for his actions. When a government is truly by the people and for the people, it cannot be a crime to leak information on the course and extent of actions by the government, in the name of its citizens, for the claimed purpose of protecting them. A representative government in a democracy relies on the consent of its people. However, such consent cannot exist when the citizens are not fully informed.</p>
-    <p>We note with alarm the complete lack of regard the US government is showing for the rights of European citizens and, more generally, anyone who uses US-based communication services and infrastructure. We also note the negative effect on its allies, the sovereignty of the affected countries and the competitiveness of their businesses.</p>
-    <p><span class="intro">Europe must respond</span> to these revelations with due resolve. In light of this situation, it is important that the European Union, rather than remaining complicit with this abuse of powers that comes at an untenable cost to society, becomes a worldwide <strong>beacon for digital rights and privacy protection, government transparency and whistleblower protection</strong>.<br /><br /></p>
-    <p><span class="intro">We call for:</span></p>
-  </div>            
-  <div class="box">
-    <h3><a href="#" onclick="return toggle(this)">1. Asylum and Protection for Whistleblowers</a></h3>
-    <div class="expanded">
-      <p>The US government has demonstrated – in the cases of <a href="http://iam.bradleymanning.org">Bradley Manning</a> and others – that its <a href="http://www.guardian.co.uk/world/2012/mar/12/bradley-manning-cruel-inhuman-treatment-un">treatment of whistleblowers</a> is a cause for grave concern. The public labeling of Edward Snowden as a “traitor” by various US officials and media has created a climate in which he cannot be assured to receive a fair trial. He might be subject to persecution for his political belief in government transparency, and would certainly be in danger of facing inhumane or degrading treatment or punishment, including the threat of the death penalty.</p>
-      <p>We call on all governments of Europe to <strong>treat sympathetically any applications for political asylum or subsidiary protection status</strong> by Mr Edward Snowden and other whistleblowers and to speedily expedite any such applications.</p>
-    </div>
-  </div>
   <div class="box">
     <h3><a href="#" onclick="return toggle(this)">2. Uncover the Facts</a></h3>
     <div class="expanded">
@@ -96,6 +75,17 @@ $manifesto = <<<EOD
       <p>We extend this call to all national parliaments – to investigate whether national constitutions, data protection laws and espionage laws have been violated.</p>
     </div>
   </div>
+
+
+3. Моцнай Еўрапейскай Аховы Дадзеных
+
+Агульнае Рэгуляванне Аховы Дадзеных, якое зараз на разглядзе, павінна быць узмоцнена, каб гарантаваць шырокую і маючую сур’ёзныя наступствы ахову асабістых і камерцыйных дадзеных. Высілкам лабістаў, якія выступаюць супраць, павінна быць аказана процідзеянне.
+
+У прыватнасці, дадзеныя еўрапейскіх грамадзян не мусяць быць наўмысна перададзены выведвальным службам Злучаных Штатаў. Артыкул 42 з першага злітага праекта плана, які адрасаваны на знешнія дзеянні трэціх краінаў, такія як Патрычны Акт ЗША (Patriot Act), Амерыканскі Акт Выведвальна Нагляду (Foreign Intelligence Surveillance Act) і накладанне бар’ераў для замежных заканадаўчых уладаў даступацца да Еўрапейскіх дадзеных павінен быць паўторна ўведзены. Метададзеныя і псеўданімны павінны быць таксама абароненыя.
+
+Згодна Міжнародным Прынцыпам Бяспечнай Гавані, кампаніі ЗША павінны інфармаваць карыстальнікаў, калі яны перадаюць дадзеныя трэцім асобам. Здаецца, што кампаніі, якія ўдзельнічалі ў праграме PRISM, парушылі гэтыя ўмовы. У адказ, ЕС павінен ануляваць пагадненне аб гэтых Прынцыпах (Commission Decision 2000/520/EC), каб закранутыя кампаніі падвергліся Еўрапескім судам і неадкладна прыпынілі гэтыя практыкі. Бяспечная Гавань павінна быць перагледжана з больш эфектыўнай аховай і базавымі механізмамі ў гэтым месцы, або замененая новымі міжнароднымі пагадненнямі па ахове дадзеных, для прыкладу, базуючыся на Агульным Рэгуляванні Аховы Дадзеных.
+
+
   <div class="box supporters">
     <h3><a href="#" onclick="return toggle(this)">3. Strong European Data Protection</a></h3>
     <div class="expanded">
@@ -104,12 +94,27 @@ $manifesto = <<<EOD
       <p>According to the <a href="https://en.wikipedia.org/wiki/International_Safe_Harbor_Privacy_Principles">International Safe Harbor Privacy Principles</a>, US companies must inform users when granting access to their data to third parties. It appears that companies participating in the PRISM programme violated these provisions. In response, the EU must <strong>revoke the agreement</strong> to these Principles (<a href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000D0520:EN:HTML">Commission Decision 2000/520/EC</a>) so that the affected companies are subject to European courts should they not cease these practices immediately. Safe Harbor must then be renegotiated with more effective safeguards and recourse mechanisms in place, or replaced by a new international agreement on data protection, e. g. based on the principles of the General Data Protection Regulation.</p>
     </div>
   </div>
+
+4. Міжнароднага пагаднення аб свабодным Інтэрнеце
+
+Каб гарантаваць, што Інтэрнэт застаецца месцам магчымасцяў і дамэкратычных сілаў больш, чым працяг звычайнага іструмента для кантролю і скарачэння дэмакратыі і асабістых свабодаў. ЕС варта ўзначаліць міжнароднае Пагадненне аб Свабодным Інтэрнеце. Такое пагадненне павінна добра ахоўваць канфедэнцыйнасць камунікацыяў, свабоду выяўлення і дасягу да інфармацыі (спецыяльна з прыналежнасцю да Інтэрнета), а таксама сеткавы нейтралітэт.
+
+
   <div class="box">
     <h3><a href="#" onclick="return toggle(this)">4. International Treaty on the Freedom of the Internet</a></h3>
     <div class="expanded">
       <p>To ensure that the Internet remains an empowering and democratising force rather than continuing to be used as a tool to limit and curtail democracy and individual liberty, the EU should spearhead an <strong>international Treaty on the Freedom of the Internet</strong>. Such a treaty should strongly protect confidentiality of communications, freedom of expression and access to information (specifically as they pertain to the Internet) as well as net neutrality.</p>
     </div>
   </div>
+
+
+5. Фонду праграмнага забеспячэння (з функцыямі прыватнасці)
+
+У дадатак да лініі аховы прыватнасці, спажывец павінен мець наладку для выкарыстання праграмнага забеспачэння і паслугі, якія добра ахоўваюць іх прыватнасць. Такое забеспячэнне можа прапаноўваць ананімнасць, добрае скразное шыфраванне, архітэктуру карыстальнік-карыстальнік (p2p), магчмасць размеркаванага або самастойнага захавання дадзеных карыстальніка, адкрыты для аналіза карыстальніка праграмнага забеспячэння код і функцыі аховы прыватнасці.
+
+Мы вітаем факт, што сённяшні план для праекту праграмы Гарызонт 2020 уключае мэту “забяспечыць прыватнасць і ахову Інтэрнета”. Мы заклікаем Еўрапейскі Саюз гарантаваць, што больш значны адсотак сродкаў на даследванні будзе патрачаны на развіццё праграмнага забеспячэння і выбару паслуг у гэтым накірунку, чым патрачаны на праекты з супрацлеглымі мэтамі. Напрыклад, даследваніі тэхналогіяў па нагляду і выцягванню дадзеных, а таксама праекты, яўныя мэты якіх ёсць бязладныя і без сумневу накіраваная на нагляд, павінны быць адмененыя цалкам. 
+
+
   <div class="box">
     <h3><a href="#" onclick="return toggle(this)">5. Fund Privacy-Conscious Software</a></h3>
     <div class="expanded">
@@ -117,11 +122,25 @@ $manifesto = <<<EOD
       <p>We applaud the fact that the current proposal for the <a href="http://ec.europa.eu/research/horizon2020/index_en.cfm">Horizon 2020</a> framework programme includes the goal to <em>&quot;<a href="http://www.kuleuven.be/eu/horizon2020/societal_challenges/security-more.html">ensure privacy and freedom in the Internet</a>&quot;</em>. We call on the European Union to ensure that a <strong>significantly larger percentage</strong> of the research funds is spent on advancing software and service choice in this way than is spent on <a href="https://en.wikipedia.org/wiki/INDECT">projects with the opposite goal</a>, i. e. surveillance and data-mining technology research, and that projects whose explicit aim is indiscriminate and suspicionless surveillance are rejected outright.</p>
     </div>          
   </div>
+
+
+
+6. Да прадухілення еўрапейскіх PRISM
+
+Мы прапаноўваем заканадаўчыя меры па ўзмацненню абароны супраць падобных падманаў у Еўропе.
+
+Прамыя праграмы па выцягванню інфармацыі ад агенстваў ураду, якія знаходзяцца ў асновах каналаў сувязі Інтэрнета, такія як, паводле звестак, устаноўленыя NSA (Агенства Нацыянальнай Бяспекі) як частка праграммы BLARNEY (паралельная праграма, збірае метададзеныя на прапускных пунктах уздоўж Інтернета), павінны быць відавочна абвешчаныя па-за законам. Такія праграмы дазваляюць захоўваць і аналізаваць дадзеныя ўсіх інтэрнет камунікацый, у абыход усяго іншага кантролю і працэдур, наносячы шкоду канфідэнцыйным дадзеным і прыватнасці кажнага. Парушэнне цэласнасці сеткавай інфраструктуры гэтым непрымальным чынам падрывае давер да ўсяго Інтэрнэта і пагражае ўсім яго перавагам.
+
+
   <div class="box">
     <h3><a href="#" onclick="return toggle(this)">6. Prevent a European PRISM</a></h3>
     <div class="expanded">
       <p>We propose legislative measures to <strong>strengthen the defence against similar agency overreach in Europe</strong>.</p>
       <p><strong><a href="https://en.wikipedia.org/wiki/Tempora">Direct taps</a></strong> by governmental agencies into backbone Internet communication channels, such as the ones reportedly installed by the NSA as part of the <a href="http://thinkprogress.org/justice/2013/06/10/2133201/blarney-online-surveillance/?mobile=nc">BLARNEY programme</a>, must be explicitly outlawed. Such taps allow storing and data-mining of all Internet communications, bypassing all other controls and procedures and compromising all confidential data and everyone's privacy. Breaching the integrity of the network infrastructure in this unacceptable way undermines the confidence in the entire Internet and threatens all its benefits.</p>
+
+
+Мы таксама паўтараем наш заклік да адмены Дырэктывы Захоўвання Дадзеных. Чэшскія і румыскія кансцітуцыйныя суды зрабілі відавачныя высновы, што шырокае і не маючае падазрэнняў захоўванне дадзеных з’яўляецца істотным парушэннем асноўных правоў чалавека. Ствараючы хаатычную калекцыю вялікіх аб’ёмаў дадзеных без падцверджання суда, праграмы захоўвання дадзеных дазваляюць выканаўчым уладам працягваць падман з дапамогай платформаў як PRISM, пагражаючы падзяленню ўлады на выканаўчую і судовую, што з’яўляецца асновай нашай дэмакратыі.
+
       <p>We also renew our calls for the <strong>repeal of the <a href="https://en.wikipedia.org/wiki/Data_Retention_Directive">Data Retention Directive</a></strong>. The Czech and Romanian constitutional courts explicitly <a href="https://wiki.openrightsgroup.org/wiki/Data_Retention_Directive#Challenges_and_non-implementation">concluded</a> that broad and suspicionless data retention is a fundamental breach of basic human rights. By establishing the indiscriminate collection of large amounts of data without court approval, data retention programmes enable the kind of executive overreach that continues on platforms such as PRISM, threatening the separation of powers between the executive and the judiciary which is at the basis of our democracies.</p>
     </div>          
   </div>
