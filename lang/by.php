@@ -1,12 +1,12 @@
 <?php
 
 $menu = <<<EOD
-  <li><a href="#share">Share this plan</a></li>
-  <li><a href="https://www.change.org/petitions/eu-parliament-and-eu-commission-stop-mass-surveillance-protect-our-data-and-our-whistleblowers">Sign the petition</a></li>
-  <!--li><a href="#">About the Pirate movement</a></li-->
+  <li><a href="#share">Распаўсюдзіць гэты план</a></li>
+  <li><a href="https://www.change.org/petitions/eu-parliament-and-eu-commission-stop-mass-surveillance-protect-our-data-and-our-whistleblowers">Падпішы петыцыю</a></li>
+  <!--li><a href="#">Пра Рух Піратаў</a></li-->
 EOD;
 
-$share = "Share this plan with your friends... and the NSA!";
+$share = "Адкрый гэты план сваім сябрам... ды NSA!";
 
 $manifesto = <<<EOD
   <div class="first box">
@@ -28,7 +28,7 @@ $manifesto = <<<EOD
  <span class="intro">We are appalled</span> to learn of the unprecedented <strong>surveillance of Internet users</strong> worldwide through PRISM and similar programmes. Blanket surveillance capabilities such as these, especially when implemented without citizens' scrutiny, seriously <strong>threaten the human rights to free speech and privacy and with them the foundations of our democracies</strong>.<br /><br /></p>
     <p><span class="intro">We applaud whisteblower Edward Snowden</span> for his actions. When a government is truly by the people and for the people, it cannot be a crime to leak information on the course and extent of actions by the government, in the name of its citizens, for the claimed purpose of protecting them. A representative government in a democracy relies on the consent of its people. However, such consent cannot exist when the citizens are not fully informed.</p>
     <p>We note with alarm the complete lack of regard the US government is showing for the rights of European citizens and, more generally, anyone who uses US-based communication services and infrastructure. We also note the negative effect on its allies, the sovereignty of the affected countries and the competitiveness of their businesses.</p>
-    <p><span class="intro">Europe must respond</span> to these revelations with due resolve. In light of this situation, it is important that the European Union, rather than remaining complicit with this abuse of powers that comes at an untenable cost to society, becomes a worldwide <strong>beacon for digital rights and privacy protection, government transparency and whistleblower protection</strong>.<br /><br /></p>
+    <p><span class="intro">Europe must respond</span> to these revelations with due resolve. In light of this situation, it is important that the European Union, rather than remaining complicit with this abuse of powers that comes at an untenable cost to society, becomes a wgitorldwide <strong>beacon for digital rights and privacy protection, government transparency and whistleblower protection</strong>.<br /><br /></p>
     <p><span class="intro">We call for:</span></p>
   </div>
 
@@ -146,7 +146,7 @@ $manifesto = <<<EOD
   </div>
 EOD;
 
-$undersigned = "The Undersigned";
+$undersigned = "Ніжэй падпісаўшыеся";
 
 
 ?>
