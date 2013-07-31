@@ -2,7 +2,7 @@
 
 $menu = <<<EOD
   <li><a href="#share">Jaga seda kampaaniat</a></li>
-  <li><a href="https://www.change.org/petitions/eu-parliament-and-eu-commission-stop-mass-surveillance-protect-our-data-and-our-whistleblowers">Lisa oma allkiri</a></li>
+  <li><a href="https://www.change.org/petitions/euroopa-parlament-ja-euroopa-komisjon-peatagem-lausj%C3%A4lgimine-tugevdagem-andmekaitset-ja-kaitskem-vilepuhujaid">Lisa oma allkiri</a></li>
 EOD;
 
 $share = "Jaga seda kampaaniat oma sõprade... ja NSAga!";
