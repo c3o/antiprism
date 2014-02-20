@@ -7,8 +7,8 @@ EOD;
 
 $manifesto = <<<EOD
   <div class="first box">
-    <p><span class="intro">Nous sommes consternés</span> de découvrir une <strong>surveillance sans précédent des utilisateurs d’Internet</strong> de par le monde via PRISM et les programmes du même ordre. Des capacités de surveillance globale de telles sortes — tout particulièrement lorsqu’elles sont mises en œuvre sans accord des citoyens — sont <strong>une atteinte sérieuse aux Droits de l’Homme, à la liberté d’expression ainsi qu’à la vie privée, tous trois éléments fondateurs de nos démocraties.</strong><br /><br /></p>
-    <p><span class="intro">Nous applaudissons Edward Snowden</span> pour ses actions de dénonciation. Quand un gouvernement est réellement par le peuple et pour le peuple, on ne peut considérer comme un crime de diffuser des informations sur le but et l’étendue des actions que le gouvernement engage au nom de ces citoyens, dans le but revendiqué de les protéger. Un gouvernement représentatif dans une démocratie repose sur le consentement de son peuple. Cependant, un tel consentement ne peut exister lorsque les citoyens ne sont pas complètement informés.</p>
+    <p><span class="intro">Nous sommes consternés</span> de découvrir une <strong>surveillance sans précédent des utilisateurs d’Internet</strong> de par le monde via PRISM et les programmes du même ordre. Des capacités de surveillance globale de telles sortes, tout particulièrement lorsqu’elles sont mises en œuvre sans accord des citoyens,c'est <strong>une atteinte sérieuse aux Droits de l’Homme, à la liberté d’expression ainsi qu’à la vie privée, tous trois éléments fondateurs de nos démocraties.</strong><br /><br /></p>
+    <p><span class="intro">Nous applaudissons Edward Snowden</span> pour ses actions de dénonciation. Quand un gouvernement gouverne pour le peuple, on ne peut considérer comme un crime de diffuser des informations sur le but et l’étendue des actions que le gouvernement engage au nom de ces citoyens, dans le but revendiqué de les protéger. Un gouvernement représentatif dans une démocratie repose sur le consentement de son peuple. Cependant, un tel consentement ne peut exister lorsque les citoyens ne sont pas complètement informés.</p>
     <p>Nous notons avec inquiétude l’absence totale de considération que le gouvernement américain montre pour les droits des citoyens européens et, plus généralement, à toute personne qui utilise les services de communication et infrastructures américains. Nous notons également l’effet négatif sur ses alliés, la souveraineté des pays concernés et la compétitivité de leurs entreprises.</p>
     <p><span class="intro">L’Europe se doit de répondre</span> à ces révélations avec la détermination nécessaire. À la lumière de ces informations, il devient nécessaire pour l’Union Européenne de ne pas rester complice de ces abus de pouvoir aux lourdes répercussions, et de s’élever au rang de <strong>pionner dans les domaines des droits numériques, de la protection de la vie privée, de la transparence gouvernementale et de la protection des lanceurs d’alertes.</strong>.<br /><br /></p>
     <p><span class="intro">Nous demandons:</span></p>
@@ -16,7 +16,7 @@ $manifesto = <<<EOD
   <div class="box">
     <h3><a href="#" onclick="return toggle(this)">1. Asile et Protection aux lanceurs d’alertes</a></h3>
     <div class="expanded">
-      <p>Le gouvernement des USA a démontré - dans le cas de Bradley Manning et d’autres - que son traitement des lanceurs d’alertes est une cause de préoccupation grave. L’étiquetage public d’Edward Snowden qui apparaît comme un “traître” pour les différents responsables et les médias a créé un climat dans lequel il ne peut avoir droit à procès équitable. Il pourrait être le sujet de persécutions pour sa politique de gouvernement transparent, et sera certainement en danger de recevoir des peines ou des traitements inhumains ou dégradants, y compris la menace de la peine de mort.</p>
+      <p>Le gouvernement des USA a démontré, dans le cas de Bradley Manning et d’autres, que son traitement des lanceurs d’alertes est une cause de préoccupation grave. L’étiquetage public d’Edward Snowden qui apparaît comme un “traître” pour les différents responsables et les médias a créé un climat dans lequel il ne peut avoir droit à procès équitable. Il pourrait être le sujet de persécutions pour sa politique de gouvernement transparent, et sera certainement en danger de recevoir des peines ou des traitements inhumains ou dégradants, y compris la menace de la peine de mort.</p>
       <p>Nous demandons à tous les gouvernements d’Europe de <strong>traiter avec bienveillance les demandes d’asile politique ou le statut de protection subsidiaires</strong> de M. Edward Snowden et d’autres lanceurs d’alertes, en faisant avancer rapidement d’éventuelles demandes de ce type.</p>
     </div>
   </div>
@@ -62,13 +62,13 @@ $manifesto = <<<EOD
       <p>Les <strong>écoutes directes</strong> des agences gouvernementales des communications au cœur du réseau Internet — comme celles ayant été reportées comme installées par la NSA dans le cadre du programme BLARNEY — doivent être explicitement déclarées hors-la-loi. De telles écoutes autorisent le stockage et l’analyse de données de toutes les communications ayant lieu sur Internet, outrepassant toutes les procédures et contrôles existants, mettant ainsi en péril la confidentialité de toutes données et la vie privée de chacun. Porter atteinte à l’intégrité du réseau d’une manière aussi révoltante empêche tout un chacun de lui faire confiance, et nous prive de tous les points positifs que l’on peut y trouver.</p>
       <p>Nous renouvelons donc notre appel pour la <strong>révocation de la directive sur la conservation des données</strong>. Les juridictions constitutionnelles tchèque, serbe et roumaine ont explicitement conclu que la collecte à grande échelle et sans suspicions de données personnelles est une violation fondamentale des droits de l’homme. Par la collecte généralisée de grandes quantités de données sans l’accord d’un tribunal, les programmes de conservation de données permettent au pouvoir exécutif d’outrepasser ses attributions au travers de plate-formes telles que PRISM, menaçant du même coup la séparation des pouvoirs exécutif et judiciaire, qui est le fondement de nos démocraties.</p>
       <p class="credits">
-        Translation <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.fr">(cc)-by-sa</a> Lgodard, Yoann, kenoris, zer0chain, AmarOk, Asta + anonymous
+        Translation <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.fr">(cc)-by-sa</a> Lgodard, Yoann, kenoris, zer0chain, AmarOk, Asta, Creaprog + anonymous
       </p>     
     </div>
   </div>
 EOD;
 
-$undersigned = "The Undersigned";
+$undersigned = "Soussigné";
 
 
 ?>
